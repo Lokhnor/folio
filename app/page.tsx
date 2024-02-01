@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         <p>Passionate learner, professional Engineer.</p>
-        <p>React Native Developer by day, Game Developer by night.</p>
+        <p>Bacon ipsum dolor amet cow ground round sirloin shankle.</p>
         <p>🐱‍👤</p>
         <p></p>
       </div>
