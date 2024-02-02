@@ -7,9 +7,6 @@ export default function Home() {
         <div>
           <h1>Vinicius Porto</h1>
         </div>
-        <div>
-          <p>he/him</p>
-        </div>
         <div className={styles.spacer}></div>
       </div>
       <div className={styles.content}>
@@ -18,8 +15,9 @@ export default function Home() {
         <p>🐱‍👤</p>
         <p></p>
       </div>
-      <div className={styles.circle}></div>
-      <div className={styles.ball}></div>
+      <div className={styles.circle}>
+        <div className={styles.ball}></div>
+      </div>
     </main>
   );
 }
