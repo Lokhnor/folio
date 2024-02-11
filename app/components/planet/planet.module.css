@@ -1,0 +1,41 @@
+.circle {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  border-radius: 400px;
+  background-image: linear-gradient(#2b2118, #1e212b);
+  z-index: 0;
+  animation: spinBall 60s linear infinite;
+}
+
+@keyframes spinBall {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ball {
+  z-index: 1;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  transform: translate(50%, 0);
+}
+
+.ball svg {
+  transform: rotate(-360deg);
+  animation: spinLogo 60s linear infinite;
+}
+
+@keyframes spinLogo {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
