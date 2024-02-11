@@ -5,15 +5,15 @@
   border-radius: 400px;
   background-image: linear-gradient(#2b2118, #1e212b);
   z-index: 0;
-  animation: spinBall 60s linear infinite;
+  animation: spinBall 6s linear infinite;
 }
 
 @keyframes spinBall {
   from {
-    transform: rotate(0deg);
+    transform: rotate(var(--rotation-start));
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(var(--rotation-end));
   }
 }
 
@@ -27,15 +27,14 @@
 }
 
 .ball svg {
-  transform: rotate(-360deg);
-  animation: spinLogo 60s linear infinite;
+  animation: spinLogo 6s linear infinite;
 }
 
 @keyframes spinLogo {
   from {
-    transform: rotate(360deg);
+    transform: rotate(var(--rotation-end));
   }
   to {
-    transform: rotate(0deg);
+    transform: rotate(var(--rotation-start));
   }
 }
