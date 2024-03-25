@@ -5,7 +5,7 @@
   border-radius: 400px;
   background-image: linear-gradient(#2b2118, #1e212b);
   z-index: 0;
-  animation: spinBall 6s linear infinite;
+  animation: spinBall 240s linear infinite;
 }
 
 @keyframes spinBall {
@@ -27,7 +27,7 @@
 }
 
 .ball svg {
-  animation: spinLogo 6s linear infinite;
+  animation: spinLogo 240s linear infinite;
 }
 
 @keyframes spinLogo {
