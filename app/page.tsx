@@ -16,8 +16,18 @@ export default function Home() {
         <p>Bacon ipsum dolor amet cow ground round sirloin shankle.</p>
         <p>🐱‍👤</p>
       </div>
-      <Planet rotationStart={0} rotationEnd={360} logo="linkedin" />
-      <Planet rotationStart={180} rotationEnd={540} logo="github" />
+      <Planet
+        rotationStart={0}
+        rotationEnd={360}
+        logo="linkedin"
+        linkedinHref="https://www.linkedin.com/in/vinicius-pinheiro-porto/"
+      />
+      <Planet
+        rotationStart={180}
+        rotationEnd={540}
+        logo="github"
+        githubHref="https://github.com/Lokhnor"
+      />
     </main>
   );
 }
