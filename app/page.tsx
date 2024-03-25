@@ -11,10 +11,14 @@ export default function Home() {
         <div className={styles.spacer}></div>
       </div>
       <div className={styles.content}>
-        <p>Bacon ipsum dolor amet cow ground round sirloin shankle.</p>
-        <p>Bacon ipsum dolor amet cow ground round sirloin shankle.</p>
-        <p>Bacon ipsum dolor amet cow ground round sirloin shankle.</p>
-        <p>🐱‍👤</p>
+        <p>
+          A React Native Developer with a background in banking, passionate
+          about creating engaging and accessible apps for Android and iOS
+          platforms.<br></br>
+          <br></br> 4 years of experience in using React Native, React,
+          Typescript, Node, and other technologies to deliver user-friendly and
+          scalable solutions for various clients and industries.
+        </p>
       </div>
       <Planet
         rotationStart={0}
